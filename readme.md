@@ -7,15 +7,14 @@
 </h3>
 
 <div style="text-align: center;">
-    [![WordPress Version](https://img.shields.io/badge/WordPress-6.4%2B-blue)](https://wordpress.org/)
-    [![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-blue)](https://www.php.net/)
-    [![Bootstrap 5.3.3](https://img.shields.io/badge/Bootstrap%205.3.3-8A2BE2)](https://getbootstrap.com/)
-    [![Bootstrap 5.3.3](https://img.shields.io/badge/Bootstrap%20Icons-8A2BE2)](https://icons.getbootstrap.com/)
-    [![Animate.css](https://img.shields.io/badge/Animate.css-e69138)](https://animate.style/)
-    [![Tests](https://img.shields.io/badge/Tests-Passed-brightgreen)](#)
-    [![License: GPL v3.0](https://img.shields.io/badge/License-GPL%20v3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+    <img src="https://img.shields.io/badge/WordPress-6.4%2B-blue" alt="WordPress Version">
+    <img src="https://img.shields.io/badge/PHP-8.2%2B-blue" alt="PHP Version">
+    <img src="https://img.shields.io/badge/Bootstrap%205.3.3-8A2BE2" alt="Bootstrap">
+    <img src="https://img.shields.io/badge/Bootstrap%20Icons-8A2BE2" alt="Bootstrap Icons">
+    <img src="https://img.shields.io/badge/Animate.css-e69138" alt="Animate.css">
+    <img src="https://img.shields.io/badge/Tests-Passed-brightgreen" alt="Tests">
+    <img src="https://img.shields.io/badge/License-GPL%20v3.0-blue.svg" alt="License: GPL v3.0">
 </div>
-
 
 ## Overview
 
