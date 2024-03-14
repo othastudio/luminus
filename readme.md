@@ -12,6 +12,8 @@
 [![Bootstrap 5.3.3](https://img.shields.io/badge/Bootstrap%20Icons-8A2BE2)](https://icons.getbootstrap.com/)
 [![Animate.css](https://img.shields.io/badge/Animate.css-e69138)](https://animate.style/)
 [![Tests](https://img.shields.io/badge/Tests-Passed-brightgreen)](#)
+[![License: GPL v3.0](https://img.shields.io/badge/License-GPL%20v3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 
 
 ## Overview
