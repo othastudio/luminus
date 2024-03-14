@@ -1,7 +1,7 @@
 {
   "name": "luminus",
   "version": "1.0.0",
-  "description": "sleek and lightweight WordPress theme designed specifically for developers.",
+  "description": "Sleek and lightweight WordPress theme designed specifically for developers.",
   "author": "Othmane N.",
   "main": "index.js",
   "scripts": {
