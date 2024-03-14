@@ -1,0 +1,11 @@
+#!/bin/sh
+CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+npm run compile-scss
+npm run format-css
+
+if [ "$CURRENT_BRANCH" == "main" ]; then
+  npm run release
+fi
+
+git add .
