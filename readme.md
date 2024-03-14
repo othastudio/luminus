@@ -38,7 +38,7 @@ When creating this starter kit, we had several guiding principles in mind::
 
 ## 🚀 Installation
 
-1. Download the theme ZIP file from the [Releases](#) page.
+1. Download the theme ZIP file from the [Releases](https://github.com/othastudio/luminus/releases) page.
 2. In your WordPress admin panel, navigate to "Appearance" > "Themes."
 3. Click "Add New" and then "Upload Theme."
 4. Choose the ZIP file and click "Install Now."
@@ -93,7 +93,7 @@ luminus/
 
 ## ✍️ Documentation
 
-For detailed information on features, installation, and customization, please refer to the [Theme Documentation](#).
+For detailed information on features, installation, and customization, please refer to our [Documentation](https://otha.studio/luminus/docs).
 
 ## ❓ Support
 
