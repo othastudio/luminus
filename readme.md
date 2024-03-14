@@ -6,7 +6,7 @@
   sleek and lightweight WordPress theme designed specifically for developers.
 </h3>
 
-<div style="text-align: center;">
+<div style="text-align: center;" align="center">
     <img src="https://img.shields.io/badge/WordPress-6.4%2B-blue" alt="WordPress Version">
     <img src="https://img.shields.io/badge/PHP-8.2%2B-blue" alt="PHP Version">
     <img src="https://img.shields.io/badge/Bootstrap%205.3.3-8A2BE2" alt="Bootstrap">
