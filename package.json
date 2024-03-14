@@ -1,0 +1,25 @@
+{
+  "name": "luminus",
+  "version": "1.0.0",
+  "description": "Sleek and lightweight WordPress theme designed specifically for developers.",
+  "author": "Othmane N.",
+  "main": "index.js",
+  "scripts": {
+    "watch-scss": "chokidar 'assets/scss/**/*.scss' -c 'npm run compile-scss'",
+    "compile-scss": "node-sass assets/**/*.scss assets//**/*.css",
+    "format-css": "prettier --write 'assets/css/**/*.css'",
+    "release": "node .releases/script.js",
+    "docs": "docsify serve docs",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "husky": "^9.0.11",
+    "archiver": "^7.0.0",
+    "chokidar-cli": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "node-sass": "^9.0.0",
+    "prettier": "^3.2.5",
+    "semver": "^7.6.0"
+  },
+  "license": "ISC"
+}
