@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?= get_template_directory_uri() . '/assets/vendors/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css' ?>" />
     <link rel="stylesheet" href="<?= get_template_directory_uri() . '/assets/vendors/animate/animate.min.css' ?>" />
 
-    <title><?= $brandablanca_meta_title ? $brandablanca_meta_title : bloginfo('name') . ' - ' . bloginfo('description'); ?></title>
+    <title><?= bloginfo('name') . ' - ' . bloginfo('description'); ?></title>
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
