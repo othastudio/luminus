@@ -24,3 +24,5 @@ function luminus_register_menus() {
 }
 add_action('after_setup_theme', 'luminus_register_menus');
 
+// Include external functions
+require_once(get_template_directory() . '/inc/customize-register/setup.php');

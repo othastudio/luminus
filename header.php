@@ -1,3 +1,11 @@
+<?php
+$maintenance_mode = get_theme_mod('maintenance_mode_setting', false);
+
+if ($maintenance_mode && !current_user_can('manage_options')) {
+    get_template_part('template-parts/maintenance-mode/maintenance-mode');
+    exit();
+}
+?>
 <!doctype html>
 <html lang="en">
   <head>
