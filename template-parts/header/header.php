@@ -18,21 +18,7 @@ function luminus_site_logo()
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <?php
-        $menu_items = wp_get_nav_menu_items('header');
-        if ($menu_items) {
-          foreach ($menu_items as $menu_item) {
-              $menu_item_title = $menu_item->title;
-              $menu_item_url = $menu_item->url;
-              $menu_item_classes = $menu_item->classes;
-              ?>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="<?= $menu_item_url ?>"><?= $menu_item_title ?></a>
-              </li>
-              <?php
-          }
-      } 
-        ?>
+        <?= luminus_display_header_menu(); ?>
       </ul>
       <form class="d-flex search-form"  role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
         <input type="search" class="form-control me-2" aria-label="Search" placeholder="<?php echo esc_attr_x( 'Search …', 'placeholder', 'textdomain' ); ?>" value="<?php echo get_search_query(); ?>" name="s" />

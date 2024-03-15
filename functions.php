@@ -30,6 +30,51 @@ function luminus_register_menus() {
 }
 add_action('after_setup_theme', 'luminus_register_menus');
 
+function luminus_display_header_menu() {
+    $menu_items = wp_get_nav_menu_items('header');
+    if ($menu_items) {
+        foreach ($menu_items as $menu_item) {
+            $menu_item_title = $menu_item->title;
+            $menu_item_url = $menu_item->url;
+            $menu_item_classes = $menu_item->classes;
+            
+            echo '<li class="nav-item">';
+            echo '<a class="nav-link';
+            
+            // Check if menu item classes exist
+            if (!empty($menu_item_classes)) {
+                echo ' ' . esc_attr(implode(' ', $menu_item_classes));
+            }
+            
+            echo '" href="' . esc_url($menu_item_url) . '">' . esc_html($menu_item_title) . '</a>';
+            echo '</li>';
+        }
+    }
+}
+function luminus_display_footer_menu() {
+    $menu_items = wp_get_nav_menu_items('footer');
+    if ($menu_items) {
+        echo '<ul class="footer-menu me-4">';
+        foreach ($menu_items as $menu_item) {
+            $menu_item_title = $menu_item->title;
+            $menu_item_url = $menu_item->url;
+            $menu_item_classes = $menu_item->classes;
+            
+            echo '<li class="footer-menu-item">';
+            echo '<a class="footer-menu-link';
+            
+            // Check if menu item classes exist
+            if (!empty($menu_item_classes)) {
+                echo ' ' . esc_attr(implode(' ', $menu_item_classes));
+            }
+            
+            echo '" href="' . esc_url($menu_item_url) . '">' . esc_html($menu_item_title) . '</a>';
+            echo '</li>';
+        }
+        echo '</ul>';
+    }
+}
+
 function luminus_display_footer_copyright(){
     $text = get_theme_mod('luminus_copyright_text', '');
     if($text){
