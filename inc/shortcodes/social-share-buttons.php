@@ -1,9 +1,8 @@
 <?php
 function generate_social_share_buttons() {
-    // Get the current page URL
+    
     $page_url = esc_url(get_permalink());
 
-    // Generate the social media share buttons
     $output = '<div class="social-share-buttons">';
     $output .= '<a class="btn bg-primary" href="https://www.facebook.com/sharer/sharer.php?u=' . $page_url . '" target="_blank" rel="nofollow"> <i class="fa-brands fa-square-facebook me-2"></i>Facebook</a>';
     $output .= '<a class="btn bg-primary" href="https://twitter.com/intent/tweet?url=' . $page_url . '" target="_blank" rel="nofollow"><i class="fa-brands fa-square-x-twitter me-2"></i> Twitter</a>';
