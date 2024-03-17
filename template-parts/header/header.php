@@ -21,7 +21,7 @@ function luminus_site_logo()
         <?= luminus_display_header_menu(); ?>
       </ul>
       <form class="d-flex search-form"  role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-        <input type="search" class="form-control me-2" aria-label="Search" placeholder="<?php echo esc_attr_x( 'Search …', 'placeholder', 'textdomain' ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
+        <input type="search" class="form-control me-2" aria-label="Search" placeholder="<?php echo esc_attr_x( 'Search …', 'placeholder', 'luminus' ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
         <button class="btn btn-outline-dark" type="submit" class="search-submit"><i class="bi bi-search"></i></button>
       </form>
     </div>
