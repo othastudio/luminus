@@ -12,7 +12,9 @@ function generate_pagination() {
         'type' => 'array',
         'prev_next' => false
     ));
-    
+    if(!$paginate_links){
+        return;
+    }
     ob_start();
     ?>
     <nav aria-label="Page navigation">
